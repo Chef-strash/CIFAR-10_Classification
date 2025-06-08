@@ -23,7 +23,7 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 | ResNet150   | 59,199,050 | **86**%  | 0.86      | 0.86   | 0.86     |
 
 
-> 📝 Note: There is a severe issue with the case of ResNet152, during training was unable to go beyond 87 % accuracy even after training for around 10 epochs. Need to check what exactly went wrong and what caused such a drastic difference from the expected accuracy.
+> 📝 Note: There is a severe issue with the case of ResNet152, during training was unable to go beyond 87 % accuracy even after training for around 10 epochs. Need to check what exactly went wrong and what caused such a drastic difference from the expected accuracy. Further, the VGG19 learning curve is very bad, currently didn't use any dropouts or batch normalization in the trainable layer.
 
 
 ---
