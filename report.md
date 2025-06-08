@@ -14,15 +14,17 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 | Model       | Parameters | Accuracy | Precision | Recall | F1 Score |
 |-------------|------------|----------|-----------|--------|----------|
 | ANN         | ...        | ...%     | ...       | ...    | ...      |
-| CNN         | 338,506        | 52.65%     | 0.5846       | 0.5265    | 0.5054      |
-| LeNet       | ...        | ...%     | ...       | ...    | ...      |
+| CNN         | 338,506    | 52.65%   | 0.5846    | 0.5265 | 0.5054   |
+| LeNet       | 62,006     | 56.00%   | 0.56      | 0.56   | 0.56     |
 | AlexNet     | ...        | ...%     | ...       | ...    | ...      |
-| VGG16       | 14,714,688        | 83.99%     | 0.8538       | 0.8399    | 0.8431      |
-| VGG19       | ...        | ...%     | ...       | ...    | ...      |
-| ResNet50    | 23,587,712        | 94.07%     | 0.9411       | 0.9407    | 0.9408      |
-| ResNet150   | ...        | ...%     | ...       | ...    | ...      |
+| VGG16       | 14,714,688 | 83.99%   | 0.8538    | 0.8399 | 0.8431   |
+| VGG19       | 20,275,274 | 85.00%   | 0.86      | 0.85   | 0.85     |
+| ResNet50    | 23,587,712 | 94.07%   | 0.9411    | 0.9407 | 0.9408   |
+| ResNet150   | 59,199,050 | **86**%  | 0.86      | 0.86   | 0.86     |
 
-> ℹ️ *Fill in actual values after model training.*
+
+> 📝 Note: There is a severe issue with the case of ResNet152, during training was unable to go beyond 87 % accuracy even after training for around 10 epochs. Need to check what exactly went wrong and what caused such a drastic difference from the expected accuracy. Further, the VGG19 learning curve is very bad, currently didn't use any dropouts or batch normalization in the trainable layer.
+
 
 ---
 
@@ -62,8 +64,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/lenet_conf_matrix.png" alt="LeNet Confusion Matrix" width="800"/></td>
-<td><img src="images/lenet_roc.png" alt="LeNet ROC Curve" width="800"/></td>
+<td><img src="Performance/lenet_conf.png" alt="LeNet Confusion Matrix" width="800"/></td>
+<td><img src="Performance/lenet_roc.png" alt="LeNet ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -107,8 +109,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/vgg19_conf_matrix.png" alt="VGG19 Confusion Matrix" width="800"/></td>
-<td><img src="images/vgg19_roc.png" alt="VGG19 ROC Curve" width="800"/></td>
+<td><img src="Performance/vgg19_conf.png" alt="VGG19 Confusion Matrix" width="800"/></td>
+<td><img src="Performance/vgg19_roc.png" alt="VGG19 ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -137,8 +139,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/resnet150_conf_matrix.png" alt="ResNet150 Confusion Matrix" width="800"/></td>
-<td><img src="images/resnet150_roc.png" alt="ResNet150 ROC Curve" width="800"/></td>
+<td><img src="Performance/resnet152_conf.png" alt="ResNet150 Confusion Matrix" width="800"/></td>
+<td><img src="Performance/resnet152_roc.png" alt="ResNet150 ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -154,12 +156,12 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 |-------------|------------|
 | ANN         | ![](images/ann_loss_curve.png) |
 | CNN         | ![](Performance/LOSS_CNN.png) |
-| LeNet       | ![](images/lenet_loss_curve.png) |
+| LeNet       | ![](Performance/lenet5_curves.png) |
 | AlexNet     | ![](images/alexnet_loss_curve.png) |
 | VGG16       | ![](Performance/LOSS_Vgg16.png) |
-| VGG19       | ![](images/vgg19_loss_curve.png) |
+| VGG19       | ![](Performance/vgg19_curves.png) |
 | ResNet50    | ![](Performance/LOSS_Resnet50.png) |
-| ResNet150   | ![](images/resnet150_loss_curve.png) |
+| ResNet150   | ![](Performance/resnet152_curves.png) |
 
 > 🧠 These plots help understand convergence behavior and overfitting across different model architectures.
 
