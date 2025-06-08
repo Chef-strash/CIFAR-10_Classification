@@ -153,12 +153,12 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 | Model       | Loss Curve |
 |-------------|------------|
 | ANN         | ![](images/ann_loss_curve.png) |
-| CNN         | ![](images/cnn_loss_curve.png) |
+| CNN         | ![](Performance/LOSS_CNN.png) |
 | LeNet       | ![](images/lenet_loss_curve.png) |
 | AlexNet     | ![](images/alexnet_loss_curve.png) |
-| VGG16       | ![](images/vgg16_loss_curve.png) |
+| VGG16       | ![](Performance/LOSS_Vgg16.png) |
 | VGG19       | ![](images/vgg19_loss_curve.png) |
-| ResNet50    | ![](images/resnet50_loss_curve.png) |
+| ResNet50    | ![](Performance/LOSS_Resnet50.png) |
 | ResNet150   | ![](images/resnet150_loss_curve.png) |
 
 > 🧠 These plots help understand convergence behavior and overfitting across different model architectures.
