@@ -14,12 +14,12 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 | Model       | Parameters | Accuracy | Precision | Recall | F1 Score |
 |-------------|------------|----------|-----------|--------|----------|
 | ANN         | ...        | ...%     | ...       | ...    | ...      |
-| CNN         | ...        | ...%     | ...       | ...    | ...      |
+| CNN         | ...        | 52.65%     | 0.5846       | 0.5265    | 0.5054      |
 | LeNet       | ...        | ...%     | ...       | ...    | ...      |
 | AlexNet     | ...        | ...%     | ...       | ...    | ...      |
-| VGG16       | ...        | ...%     | ...       | ...    | ...      |
+| VGG16       | ...        | 83.99%     | 0.8538       | 0.8399    | 0.8431      |
 | VGG19       | ...        | ...%     | ...       | ...    | ...      |
-| ResNet50    | ...        | ...%     | ...       | ...    | ...      |
+| ResNet50    | ...        | 94.07%     | 0.9411       | 0.9407    | 0.9408      |
 | ResNet150   | ...        | ...%     | ...       | ...    | ...      |
 
 > ℹ️ *Fill in actual values after model training.*
@@ -32,8 +32,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/ann_conf_matrix.png" alt="ANN Confusion Matrix" width="400"/></td>
-<td><img src="images/ann_roc.png" alt="ANN ROC Curve" width="400"/></td>
+<td><img src="images/ann_conf_matrix.png" alt="ANN Confusion Matrix" width="800"/></td>
+<td><img src="images/ann_roc.png" alt="ANN ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -47,8 +47,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/cnn_conf_matrix.png" alt="CNN Confusion Matrix" width="400"/></td>
-<td><img src="images/cnn_roc.png" alt="CNN ROC Curve" width="400"/></td>
+<td><img src="Performance/Cofn_CNN.png" alt="CNN Confusion Matrix" width="800"/></td>
+<td><img src="Performance/ROC_CNN.png" alt="CNN ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -62,8 +62,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/lenet_conf_matrix.png" alt="LeNet Confusion Matrix" width="400"/></td>
-<td><img src="images/lenet_roc.png" alt="LeNet ROC Curve" width="400"/></td>
+<td><img src="images/lenet_conf_matrix.png" alt="LeNet Confusion Matrix" width="800"/></td>
+<td><img src="images/lenet_roc.png" alt="LeNet ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -77,8 +77,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/alexnet_conf_matrix.png" alt="AlexNet Confusion Matrix" width="400"/></td>
-<td><img src="images/alexnet_roc.png" alt="AlexNet ROC Curve" width="400"/></td>
+<td><img src="images/alexnet_conf_matrix.png" alt="AlexNet Confusion Matrix" width="800"/></td>
+<td><img src="images/alexnet_roc.png" alt="AlexNet ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -92,8 +92,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/vgg16_conf_matrix.png" alt="VGG16 Confusion Matrix" width="400"/></td>
-<td><img src="images/vgg16_roc.png" alt="VGG16 ROC Curve" width="400"/></td>
+<td><img src="Performance/Cofn_Vgg16.png" alt="VGG16 Confusion Matrix" width="800"/></td>
+<td><img src="Performance/ROC_Vgg16.png" alt="VGG16 ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -107,8 +107,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/vgg19_conf_matrix.png" alt="VGG19 Confusion Matrix" width="400"/></td>
-<td><img src="images/vgg19_roc.png" alt="VGG19 ROC Curve" width="400"/></td>
+<td><img src="images/vgg19_conf_matrix.png" alt="VGG19 Confusion Matrix" width="800"/></td>
+<td><img src="images/vgg19_roc.png" alt="VGG19 ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -122,8 +122,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/resnet50_conf_matrix.png" alt="ResNet50 Confusion Matrix" width="400"/></td>
-<td><img src="images/resnet50_roc.png" alt="ResNet50 ROC Curve" width="400"/></td>
+<td><img src="Performance/Cofn_Resnet50.png" alt="ResNet50 Confusion Matrix" width="800"/></td>
+<td><img src="Performance/ROC_Resnet50.png" alt="ResNet50 ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -137,8 +137,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/resnet150_conf_matrix.png" alt="ResNet150 Confusion Matrix" width="400"/></td>
-<td><img src="images/resnet150_roc.png" alt="ResNet150 ROC Curve" width="400"/></td>
+<td><img src="images/resnet150_conf_matrix.png" alt="ResNet150 Confusion Matrix" width="800"/></td>
+<td><img src="images/resnet150_roc.png" alt="ResNet150 ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
