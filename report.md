@@ -34,8 +34,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/ann_conf_matrix.png" alt="ANN Confusion Matrix" width="800"/></td>
-<td><img src="images/ann_roc.png" alt="ANN ROC Curve" width="800"/></td>
+<td><img src="Performance/ann_conf_matrix.png" alt="ANN Confusion Matrix" width="800"/></td>
+<td><img src="Performance/ann_roc.png" alt="ANN ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -79,8 +79,8 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 <table>
 <tr>
-<td><img src="images/alexnet_conf_matrix.png" alt="AlexNet Confusion Matrix" width="800"/></td>
-<td><img src="images/alexnet_roc.png" alt="AlexNet ROC Curve" width="800"/></td>
+<td><img src="Performance/alexnet_conf_matrix.png" alt="AlexNet Confusion Matrix" width="800"/></td>
+<td><img src="Performance/alexnet_roc.png" alt="AlexNet ROC Curve" width="800"/></td>
 </tr>
 <tr>
 <td align="center"><b>Confusion Matrix</b></td>
@@ -154,10 +154,10 @@ The report includes training-validation plots, confusion matrices, ROC curves, a
 
 | Model       | Loss Curve |
 |-------------|------------|
-| ANN         | ![](images/ann_loss_curve.png) |
+| ANN         | ![](Performance/ann_loss_curve.png) |
 | CNN         | ![](Performance/LOSS_CNN.png) |
 | LeNet       | ![](Performance/lenet5_curves.png) |
-| AlexNet     | ![](images/alexnet_loss_curve.png) |
+| AlexNet     | ![](Performance/alexnet_loss_curve.png) |
 | VGG16       | ![](Performance/LOSS_Vgg16.png) |
 | VGG19       | ![](Performance/vgg19_curves.png) |
 | ResNet50    | ![](Performance/LOSS_Resnet50.png) |
